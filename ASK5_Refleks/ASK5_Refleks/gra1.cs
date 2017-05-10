@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace ASK5_Refleks
 {
-    public partial class Form1 : Form
+    public partial class gra1 : Form
     {
-        public Form1()
+        public gra1()
         {
             InitializeComponent();
-        }
-
-        private void b_gra1_Click(object sender, EventArgs e)
-        {
-            gra1 gra = new gra1();
-            gra.Show();
         }
     }
 }
