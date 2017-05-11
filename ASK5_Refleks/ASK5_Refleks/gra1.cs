@@ -185,5 +185,10 @@ namespace ASK5_Refleks
         {
             this.Close();
         }
+
+        private void gra1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -49,8 +49,9 @@
             this.b_gra2.Name = "b_gra2";
             this.b_gra2.Size = new System.Drawing.Size(350, 46);
             this.b_gra2.TabIndex = 1;
-            this.b_gra2.Text = "button2";
+            this.b_gra2.Text = "Gra 2";
             this.b_gra2.UseVisualStyleBackColor = true;
+            this.b_gra2.Click += new System.EventHandler(this.b_gra2_Click);
             // 
             // b_gra3
             // 

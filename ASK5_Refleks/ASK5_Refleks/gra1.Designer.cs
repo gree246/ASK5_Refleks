@@ -165,6 +165,7 @@
             this.KeyPreview = true;
             this.Name = "gra1";
             this.Text = "gra1";
+            this.Load += new System.EventHandler(this.gra1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.gra1_KeyDown);
             this.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.gra1_PreviewKeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
