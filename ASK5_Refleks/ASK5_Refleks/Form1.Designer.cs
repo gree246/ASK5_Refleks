@@ -39,7 +39,7 @@
             this.b_gra1.Name = "b_gra1";
             this.b_gra1.Size = new System.Drawing.Size(350, 51);
             this.b_gra1.TabIndex = 0;
-            this.b_gra1.Text = "button1";
+            this.b_gra1.Text = "Gra 1";
             this.b_gra1.UseVisualStyleBackColor = true;
             this.b_gra1.Click += new System.EventHandler(this.b_gra1_Click);
             // 
@@ -69,6 +69,7 @@
             this.Controls.Add(this.b_gra3);
             this.Controls.Add(this.b_gra2);
             this.Controls.Add(this.b_gra1);
+            this.KeyPreview = true;
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
