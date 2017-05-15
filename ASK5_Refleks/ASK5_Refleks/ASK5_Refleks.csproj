@@ -82,6 +82,9 @@
     <EmbeddedResource Include="gra2.resx">
       <DependentUpon>gra2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="gra3.resx">
+      <DependentUpon>gra3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -110,6 +113,10 @@
     <Content Include="arrow_l.png" />
     <Content Include="arrow_r.png" />
     <Content Include="arrow_u.png" />
+    <Content Include="cow-moo2.wav" />
+    <Content Include="dog-medium-landing-hero.jpg" />
+    <Content Include="dog_bark_x.wav" />
+    <Content Include="yy_F__YU.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

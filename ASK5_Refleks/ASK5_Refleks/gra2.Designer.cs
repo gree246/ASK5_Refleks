@@ -29,16 +29,17 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(gra2));
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.l_opis = new System.Windows.Forms.Label();
             this.b_koniec = new System.Windows.Forms.Button();
             this.b_start = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.l_czas = new System.Windows.Forms.Label();
             this.klikacz = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.l_czas = new System.Windows.Forms.Label();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -51,9 +52,9 @@
             this.l_opis.AutoSize = true;
             this.l_opis.Location = new System.Drawing.Point(39, 489);
             this.l_opis.Name = "l_opis";
-            this.l_opis.Size = new System.Drawing.Size(81, 17);
+            this.l_opis.Size = new System.Drawing.Size(560, 51);
             this.l_opis.TabIndex = 9;
-            this.l_opis.Text = "Opis todo...";
+            this.l_opis.Text = resources.GetString("l_opis.Text");
             // 
             // b_koniec
             // 
@@ -86,6 +87,30 @@
             this.panel1.Size = new System.Drawing.Size(1018, 414);
             this.panel1.TabIndex = 12;
             // 
+            // chart1
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            this.chart1.Location = new System.Drawing.Point(18, 14);
+            this.chart1.Name = "chart1";
+            series1.ChartArea = "ChartArea1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
+            this.chart1.Size = new System.Drawing.Size(680, 382);
+            this.chart1.TabIndex = 2;
+            this.chart1.Text = "wykres";
+            this.chart1.Visible = false;
+            // 
+            // l_czas
+            // 
+            this.l_czas.AutoSize = true;
+            this.l_czas.Location = new System.Drawing.Point(704, 14);
+            this.l_czas.Name = "l_czas";
+            this.l_czas.Size = new System.Drawing.Size(46, 17);
+            this.l_czas.TabIndex = 1;
+            this.l_czas.Text = "label1";
+            this.l_czas.Visible = false;
+            // 
             // klikacz
             // 
             this.klikacz.BackColor = System.Drawing.Color.Red;
@@ -99,30 +124,6 @@
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // l_czas
-            // 
-            this.l_czas.AutoSize = true;
-            this.l_czas.Location = new System.Drawing.Point(704, 14);
-            this.l_czas.Name = "l_czas";
-            this.l_czas.Size = new System.Drawing.Size(46, 17);
-            this.l_czas.TabIndex = 1;
-            this.l_czas.Text = "label1";
-            this.l_czas.Visible = false;
-            // 
-            // chart1
-            // 
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            this.chart1.Location = new System.Drawing.Point(18, 14);
-            this.chart1.Name = "chart1";
-            series3.ChartArea = "ChartArea1";
-            series3.Name = "Series1";
-            this.chart1.Series.Add(series3);
-            this.chart1.Size = new System.Drawing.Size(680, 382);
-            this.chart1.TabIndex = 2;
-            this.chart1.Text = "wykres";
-            this.chart1.Visible = false;
             // 
             // numericUpDown1
             // 
@@ -159,7 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1093, 528);
+            this.ClientSize = new System.Drawing.Size(1093, 546);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.l_opis);

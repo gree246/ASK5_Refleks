@@ -35,7 +35,7 @@
             // 
             // b_gra1
             // 
-            this.b_gra1.Location = new System.Drawing.Point(12, 61);
+            this.b_gra1.Location = new System.Drawing.Point(12, 12);
             this.b_gra1.Name = "b_gra1";
             this.b_gra1.Size = new System.Drawing.Size(350, 51);
             this.b_gra1.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             // b_gra2
             // 
-            this.b_gra2.Location = new System.Drawing.Point(12, 201);
+            this.b_gra2.Location = new System.Drawing.Point(12, 69);
             this.b_gra2.Name = "b_gra2";
             this.b_gra2.Size = new System.Drawing.Size(350, 46);
             this.b_gra2.TabIndex = 1;
@@ -55,18 +55,19 @@
             // 
             // b_gra3
             // 
-            this.b_gra3.Location = new System.Drawing.Point(12, 380);
+            this.b_gra3.Location = new System.Drawing.Point(12, 121);
             this.b_gra3.Name = "b_gra3";
             this.b_gra3.Size = new System.Drawing.Size(350, 40);
             this.b_gra3.TabIndex = 2;
-            this.b_gra3.Text = "button3";
+            this.b_gra3.Text = "Gra 3";
             this.b_gra3.UseVisualStyleBackColor = true;
+            this.b_gra3.Click += new System.EventHandler(this.b_gra3_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(374, 533);
+            this.ClientSize = new System.Drawing.Size(374, 175);
             this.Controls.Add(this.b_gra3);
             this.Controls.Add(this.b_gra2);
             this.Controls.Add(this.b_gra1);

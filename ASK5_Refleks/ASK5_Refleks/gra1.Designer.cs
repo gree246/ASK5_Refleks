@@ -61,9 +61,9 @@
             this.l_opis.AutoSize = true;
             this.l_opis.Location = new System.Drawing.Point(77, 431);
             this.l_opis.Name = "l_opis";
-            this.l_opis.Size = new System.Drawing.Size(81, 17);
+            this.l_opis.Size = new System.Drawing.Size(569, 51);
             this.l_opis.TabIndex = 2;
-            this.l_opis.Text = "Opis todo...";
+            this.l_opis.Text = resources.GetString("l_opis.Text");
             // 
             // timer1
             // 
@@ -152,7 +152,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(970, 468);
+            this.ClientSize = new System.Drawing.Size(970, 493);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.l_opis);
             this.Controls.Add(this.b_koniec);

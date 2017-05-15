@@ -29,6 +29,7 @@ namespace ASK5_Refleks
             czas = new int[5];
             
             timer1.Enabled = false;
+
             
         }
 

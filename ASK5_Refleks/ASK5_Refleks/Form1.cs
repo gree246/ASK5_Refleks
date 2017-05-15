@@ -28,5 +28,11 @@ namespace ASK5_Refleks
             gra2 gra = new gra2();
             gra.Show();
         }
+
+        private void b_gra3_Click(object sender, EventArgs e)
+        {
+            gra3 gra = new gra3();
+            gra.Show();
+        }
     }
 }
